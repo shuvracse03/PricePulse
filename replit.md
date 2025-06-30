@@ -9,7 +9,7 @@ PriceTracker is a full-stack web application that enables users to compare price
 The application follows a modern full-stack architecture with clear separation between frontend and backend components:
 
 - **Frontend**: React-based SPA using TypeScript, Vite for bundling, and Tailwind CSS for styling
-- **Backend**: Express.js server with TypeScript, providing RESTful API endpoints
+- **Backend**: Django REST Framework providing RESTful API endpoints with JWT authentication
 - **Database**: PostgreSQL with Drizzle ORM for type-safe database operations
 - **Authentication**: Replit Auth integration with OpenID Connect
 - **State Management**: Redux Toolkit with RTK Query for API state management
